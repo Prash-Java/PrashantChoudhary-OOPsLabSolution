@@ -1,12 +1,12 @@
 package com.greatlearning.model;
 
 public class Employee {
-	
+
 	//Declare attributes as private
 	private String firstName;
 	private String lastName;
 	private String department;
-	
+
 	//parametric constructors
 	public Employee(String firstName, String lastName, String department) {
 		this.firstName = firstName;
